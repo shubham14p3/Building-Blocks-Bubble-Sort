@@ -17,10 +17,9 @@ end
 # Inserting the list for sorting
 array = [5, 9, 7, 3, 1]
 
-array
 # Calling the function bubble_ Sort
 bubble_sort(array)
-1
+
 # Defining  bubble_ Sort_by Defination
 def bubble_sort_by(array)
   passes = array.length
