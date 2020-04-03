@@ -11,16 +11,16 @@ def bubble_sort(array)
       end
     end
   end
-  puts array.to_s
+  array
 end
 
 # Inserting the list for sorting
 array = [5, 9, 7, 3, 1]
-puts "This is the array that needs to be sorted #{array}"
 
+array
 # Calling the function bubble_ Sort
 bubble_sort(array)
-
+1
 # Defining  bubble_ Sort_by Defination
 def bubble_sort_by(array)
   passes = array.length
@@ -34,12 +34,11 @@ def bubble_sort_by(array)
     end
     passes -= 1
   end
-  puts array.to_s
+  array
 end
 
 # Inserting the list for sorting
 array = %w[hi hello hey]
-puts "This is the array that needs to be sorted : #{array}"
 
 # Calling the function bubble_sort_by
 bubble_sort_by(array) do |left, right|

@@ -6,10 +6,6 @@ Code on Ruby
 
 ![screenshot](./images/Code.PNG)
 
-Output.PNG
-
-![screenshot](./images/Output.PNG)
-
 ## Getting the Repo
 
 git clone https://github.com/shubham14p3/Advanced-Building-Blocks-Bubble-Sort.git
