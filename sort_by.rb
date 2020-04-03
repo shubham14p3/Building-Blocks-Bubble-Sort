@@ -9,10 +9,10 @@ def bubble_sort(array)
         array[i], array[i + 1] = array[i + 1], array[i]
         swapped = true
       end
-  end
+    end
   end
   puts array.to_s
-  end
+end
 
 # Inserting the list for sorting
 array = [5, 9, 7, 3, 1]
@@ -24,13 +24,13 @@ bubble_sort(array)
 # Defining  bubble_ Sort_by Defination
 def bubble_sort_by(array)
   passes = array.length
-  while passes > 0
+  while passes.positive?
     swapped = 1
     while swapped < passes
       if yield(array[swapped - 1], array[swapped]).negative?
         array[swapped - 1], array[swapped] = array[swapped], array[swapped - 1]
       end
-    swapped += 1
+      swapped += 1
     end
     passes -= 1
   end
