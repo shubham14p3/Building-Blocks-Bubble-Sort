@@ -114,7 +114,7 @@
   <div class="position-relative js-header-wrapper ">
     <a href="#start-of-content" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
     <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
-      <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+      <span class="progress-pjax-loader-bar top-0 left-0" style="width= 0%;"></span>
     </span>
 
     
