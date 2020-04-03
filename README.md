@@ -1,74 +1,46 @@
-# Project Name
+# Advanced-Building-Blocks-Bubble-Sort
 
-> One paragraph statement about the project.
+Bubble-Sort
 
-![screenshot](./app_screenshot.png)
+Code on Ruby
 
-Additional description about the project and its features.
+![screenshot](./images/Code.PNG)
+
+Output.PNG
+
+![screenshot](./images/Output.PNG)
+
+## Getting the Repo
+
+git clone https://github.com/shubham14p3/Advanced-Building-Blocks-Bubble-Sort.git
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- RUBY
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://shubham14p3.github.io/Advanced-Building-Blocks-Bubble-Sort/.)
 
 ## Authors
 
-👤 **Author1**
+👤 Miguel Enciso
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@MiguelEnciso](http://github.com/rootDEV2990/)
+- Linkedin: [Miguel Enciso](https://www.linkedin.com/mx/rootDEV2990/)
 
-👤 **Author2**
+👤 Shubham Raj
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ShubhamRaj](https://github.com/shubham14p3)
+- Linkedin: [Shubham14p3](https://www.linkedin.com/in/shubham14p3/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/shubham14p3/Advanced-Building-Blocks-Bubble-Sort/issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
