@@ -1,45 +1,38 @@
 # Defining  bubble_ Sort Defination
-def bubble_sort(array)
-  n = array.length
-  swapped = true
-  while swapped
-    swapped = false
-    (n - 1).times do |i|
-      if array[i] > array[i + 1]
-        array[i], array[i + 1] = array[i + 1], array[i]
-        swapped = true
-      end
-    end
-  end
-  array
+def bubble_sort(arr)
+	loop do
+	  swapped = false
+	  for j in 0...arr.length - 1
+		if(arr[j] > arr[j+1])
+		  arr[j], arr[j+1] = arr[j+1], arr[j]
+		  swapped = true
+		end
+	  end
+	  break if !swapped
+	end
+	arr
 end
 
 # Inserting the list for sorting
-array = [5, 9, 7, 3, 1]
-
-# Calling the function bubble_ Sort
-bubble_sort(array)
-
+bubble_sort([4,3,78,2,0,2])
+  
 # Defining  bubble_ Sort_by Defination
-def bubble_sort_by(array)
-  passes = array.length
-  while passes.positive?
-    swapped = 1
-    while swapped < passes
-      if yield(array[swapped - 1], array[swapped]).negative?
-        array[swapped - 1], array[swapped] = array[swapped], array[swapped - 1]
-      end
-      swapped += 1
-    end
-    passes -= 1
-  end
-  array
+def bubble_sort_by(arr)  
+	loop do
+	  swapped = false
+	  for j in 0...arr.length - 1
+		result = yield(arr[j], arr[j+1])
+  		if result > 0
+		  arr[j], arr[j+1] = arr[j+1], arr[j]
+		  swapped = true
+		end
+	  end
+	  break if !swapped
+	end
+	arr
 end
 
-# Inserting the list for sorting
-array = %w[hi hello hey]
-
-# Calling the function bubble_sort_by
-bubble_sort_by(array) do |left, right|
-  right.length - left.length
+# Initialising
+result = bubble_sort_by(["hi","hello", "hey"]) do |left,right|
+	left.length - right.length
 end
