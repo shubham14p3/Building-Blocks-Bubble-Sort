@@ -18,15 +18,10 @@ Metrics/BlockLength:
   ExcludedMethods: ['describe']
   Max: 30
 
-AllCops:
-  DisabledByDefault: true
-
 Layout/ArrayAlignment:
  Enabled: true
-
 Layout/HashAlignment:
  Enabled: true
-
 Layout/ParameterAlignment:
  Enabled: true
 Style/Documentation:
