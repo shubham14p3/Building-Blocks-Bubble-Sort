@@ -4,8 +4,8 @@ def bubble_sort(arr)
 	  swapped = false
 	  for j in 0...arr.length - 1
 		if(arr[j] > arr[j+1])
-		  arr[j], arr[j+1] = arr[j+1], arr[j]
-		  swapped = true
+			arr[j], arr[j+1] = arr[j+1], arr[j]
+			swapped = true
 		end
 	  end
 	  break if !swapped
@@ -17,14 +17,14 @@ end
 bubble_sort([4,3,78,2,0,2])
   
 # Defining  bubble_ Sort_by Defination
-def bubble_sort_by(arr)  
+def bubble_sort_by(arr)
 	loop do
 	  swapped = false
 	  for j in 0...arr.length - 1
 		result = yield(arr[j], arr[j+1])
-  		if result > 0
-		  arr[j], arr[j+1] = arr[j+1], arr[j]
-		  swapped = true
+		  if result > 0
+			arr[j], arr[j+1] = arr[j+1], arr[j]
+			swapped = true
 		end
 	  end
 	  break if !swapped
@@ -33,6 +33,6 @@ def bubble_sort_by(arr)
 end
 
 # Initialising
-result = bubble_sort_by(["hi","hello", "hey"]) do |left,right|
+result = bubble_sort_by(%w["hi","hello", "hey"]) do |left, right|
 	left.length - right.length
 end
