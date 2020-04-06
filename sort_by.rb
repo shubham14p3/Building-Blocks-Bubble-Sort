@@ -13,9 +13,6 @@ def bubble_sort(arr)
   arr
 end
 
-# Inserting the list for sorting
-bubble_sort([4, 3, 78, 2, 0, 2])
-
 # Defining  bubble_ Sort_by Defination
 def bubble_sort_by(arr)
   loop do
