@@ -20,22 +20,22 @@ Metrics/BlockLength:
 
 
 Style/Documentation:
-  Enabled: false
+  Enabled: true
 Style/ClassAndModuleChildren:
-  Enabled: false
+  Enabled: true
 Style/EachForSimpleLoop:
-  Enabled: false
+  Enabled: true
 Style/AndOr:
-  Enabled: false
+  Enabled: true
 Style/DefWithParentheses:
-  Enabled: false
+  Enabled: true
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
 Layout/ExtraSpacing:
-  AllowForAlignment: false
+  AllowForAlignment: true
 Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
